@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Task01- Abdus Salam</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+
+</head>
+
+<body>
+
+    <!-- Navigation starts -->
+    <nav class="nav">
+        <a href="#"><img src="./image/logo.jpg" alt="logo" width="150" class="logo" /></a>
+        <ul>
+
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="newUser.html">create</a></li>
+            <li><a href="#">Workshop</a></li>
+            <li><a href="#">contact</a></li>
+        </ul>
+        <div class="nav-search">
+            <input id="searchValue" type="text" />
+            <input id="searchbtn" type="button" value="Search" />
+        </div>
+    </nav>
+    <!-- Navigation ends -->
+    <div class="search_bar">
+        <input type="text" placeholder="Search User" id="search_text" />
+        <button type="submit" id="search_btn">Search</button>
+    </div>
+    <h1>All the user data</h1><br><br>
+    <table id="position">
+        <thead>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Points</th>
+            <th>Options</th>
+        </thead>
+        <tbody id="tableData"></tbody>
+    </table>
+
+    <script src='src.js'></script>
+</body>
+
+
+</html>
